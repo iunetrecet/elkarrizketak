@@ -1,2 +1,3 @@
 # elkarrizketak
-A web design for a newspaper interviews section
+
+A web design for the interviews section of a newspaper
