@@ -6725,7 +6725,9 @@ button.close {
   }
 }
 body {
-  font-family: lato;
+  font-family: LatoRegular;
+  font-size: 12pt;
+  line-height: 2rem;
 }
 #wrap {
   margin-left: -15px;
@@ -6794,49 +6796,44 @@ h1.titularra {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 8rem;
+  border-bottom: .2rem solid grey;
+  padding-bottom: .2em;
 }
 h2.sarrera {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: normal;
+  padding: 1em 0;
+  margin: .5em 0;
+  font-family: LatoLight;
 }
 p.sinadura {
-  font-weight: bold;
+  font-family: LatoSemiBold;
+  font-size: 1.3rem;
+  padding: 2em 0 .2em 0;
+  margin-bottom: 2em;
+  font-style: italic;
+  border-bottom: .05em solid grey;
+}
+p.sinadura .sinadura-data {
+  font-family: LatoLight;
 }
 .irudiak {
   position: relative;
 }
 .irudiak p.oina {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   position: absolute;
-  right: -14em;
-  width: 13em;
+  right: -12em;
+  width: 11em;
   bottom: 0;
   margin-bottom: 0;
-  font-weight: bold;
+  font-family: LatoLight;
+  line-height: 1.5em;
 }
 .irudiak .sinadura-irudia {
   text-transform: lowercase;
   font-variant: small-caps;
   font-weight: normal;
-  padding-left: .5em;
-}
-@font-face {
-  font-family: lato;
-  src: '../fonts/lato/lato.ttf';
-}
-@font-face {
-  font-family: lato;
-  font-weight: bold;
-  src: '../fonts/lato/lato-Bold.ttf';
-}
-@font-face {
-  font-family: lato;
-  font-transform: italic;
-  font-weight: bold;
-  src: '../fonts/lato/lato-BoldItalic.ttf';
-}
-@font-face {
-  font-family: lato;
-  font-transform: italic;
-  src: '../fonts/lato/latoItalic.ttf';
+  padding-left: .3em;
+  font-size: 1.2em;
 }
