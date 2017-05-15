@@ -6726,8 +6726,8 @@ button.close {
 }
 body {
   font-family: LatoRegular;
-  font-size: 12pt;
-  line-height: 2rem;
+  font-size: 13pt;
+  line-height: 2.3rem;
 }
 #wrap {
   margin-left: -15px;
