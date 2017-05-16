@@ -1,19 +1,10 @@
-img {
-  max-width: 100%;
-  &.panoramikoa {
-    width: 100vw; }
-  &.horizontala {
-    width: 100%; }
-  &.bertikala {
-    width: 50%; }
-}
-
 h1.titularra {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 8rem;
   border-bottom: .2rem solid grey;
   padding-bottom: .2em;
+  .responsive(12, 8, 6);
 }
 
 h2.sarrera {
@@ -22,6 +13,7 @@ h2.sarrera {
   padding: 1em 0;
   margin: .5em 0;
   font-family: @light;
+  .responsive(12, 8, 6);
 }
 
 p.sinadura {
@@ -31,30 +23,80 @@ p.sinadura {
   margin-bottom: 2em;
   font-style: italic;
   border-bottom: .05em solid grey;
+  .responsive(12, 8, 6);
   .sinadura-data {
     font-family: @light;
   }
 }
 
-p.testua {}
+p.testua {
+  .responsive(12, 8, 6);
+}
 
-.irudiak {
+.irudi {
   position: relative;
-  p.oina {
-    font-size: 1.3rem;
+}
+.oina {
+  font-size: 1.3rem;
+  font-family: @light;
+  line-height: 1.5em;
+  @media (min-width: @screen-sm-min) {
     position: absolute;
-    right: -12em;
     width: 11em;
-    bottom: 0;
     margin-bottom: 0;
-    font-family: @light;
-    line-height: 1.5em;
   }
-  .sinadura-irudia {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    font-weight: normal;
-    padding-left: .3em;
-    font-size: 1.2em
+}
+.sinadura-irudia {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-weight: normal;
+  padding-left: .3em;
+  font-size: 1.2em
+}
+.panoramikoa {
+  .responsive(12, 12, 12);
+  padding: 0 !important;
+  img {
+    width: 100%; }
+  .oina {
+    @media (min-width: @screen-sm-min) {
+      right: 5em;
+      background: white;
+      padding: .3em;
+      bottom: -10%;
+    }
+  }
+}
+.horizontala {
+  .responsive(12, 8, 6);
+  img {
+    width: 100%; }
+  .oina {
+    @media (min-width: @screen-sm-min) {
+      right: -12em;
+      bottom: 0;
+    }
+  }
+}
+.bertikala {
+  width: 100%;
+  @media (min-width: @screen-sm-min) {
+    float: left;
+    width: 50%;
+    margin: 1% 3% 1% -10%;
+  }
+  img {
+    width: 100%;
+    padding: 1em 0;
+    @media (min-width: @screen-sm-min) {
+      padding: 0;
+    }
+  }
+  .oina {
+    @media (min-width: @screen-sm-min) {
+      left: -12em;
+      text-align: right;
+      bottom: 0;
+    }
   }
 }

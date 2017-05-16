@@ -6793,6 +6793,50 @@ h2.sarrera {
   padding: 1em 0;
   margin: .5em 0;
   font-family: LatoLight;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  h2.sarrera {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  h2.sarrera {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  h2.sarrera {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  h2.sarrera {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  h2.sarrera {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  h2.sarrera {
+    margin-left: 25%;
+  }
 }
 p.sinadura {
   font-family: LatoSemiBold;
@@ -6801,21 +6845,114 @@ p.sinadura {
   margin-bottom: 2em;
   font-style: italic;
   border-bottom: .05em solid grey;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  p.sinadura {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  p.sinadura {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  p.sinadura {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  p.sinadura {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  p.sinadura {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  p.sinadura {
+    margin-left: 25%;
+  }
 }
 p.sinadura .sinadura-data {
   font-family: LatoLight;
 }
+p.testua {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  p.testua {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  p.testua {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  p.testua {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  p.testua {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  p.testua {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  p.testua {
+    margin-left: 25%;
+  }
+}
 .irudi {
   position: relative;
 }
-p.oina {
+.oina {
   font-size: 1.3rem;
-  position: absolute;
-  width: 11em;
-  bottom: 0;
-  margin-bottom: 0;
   font-family: LatoLight;
   line-height: 1.5em;
+}
+@media (min-width: 768px) {
+  .oina {
+    position: absolute;
+    width: 11em;
+    margin-bottom: 0;
+  }
 }
 .sinadura-irudia {
   text-transform: lowercase;
@@ -6824,24 +6961,142 @@ p.oina {
   padding-left: .3em;
   font-size: 1.2em;
 }
+.panoramikoa {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0 !important;
+}
+@media (min-width: 768px) {
+  .panoramikoa {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .panoramikoa {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .panoramikoa {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .panoramikoa {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .panoramikoa {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .panoramikoa {
+    margin-left: 0%;
+  }
+}
 .panoramikoa img {
-  width: 100vw;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .panoramikoa .oina {
+    right: 5em;
+    background: white;
+    padding: .3em;
+    bottom: -10%;
+  }
+}
+.horizontala {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .horizontala {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .horizontala {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .horizontala {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .horizontala {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .horizontala {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .horizontala {
+    margin-left: 25%;
+  }
 }
 .horizontala img {
   width: 100%;
 }
-.horizontala p.oina {
-  right: -12em;
+@media (min-width: 768px) {
+  .horizontala .oina {
+    right: -12em;
+    bottom: 0;
+  }
 }
 .bertikala {
-  float: left;
-  width: 50%;
-  margin: 1% 3% 1% -10%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .bertikala {
+    float: left;
+    width: 50%;
+    margin: 1% 3% 1% -10%;
+  }
 }
 .bertikala img {
   width: 100%;
+  padding: 1em 0;
 }
-.bertikala p.oina {
-  left: -12em;
-  text-align: right;
+@media (min-width: 768px) {
+  .bertikala img {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .bertikala .oina {
+    left: -12em;
+    text-align: right;
+    bottom: 0;
+  }
 }
