@@ -6457,8 +6457,8 @@ button.close {
 .modal-header:after,
 .modal-footer:before,
 .modal-footer:after,
-#wrap:before,
-#wrap:after {
+article:before,
+article:after {
   content: " ";
   display: table;
 }
@@ -6478,7 +6478,7 @@ button.close {
 .panel-body:after,
 .modal-header:after,
 .modal-footer:after,
-#wrap:after {
+article:after {
   clear: both;
 }
 .center-block {
@@ -6727,14 +6727,21 @@ button.close {
 body {
   font-family: LatoRegular;
   font-size: 13pt;
-  line-height: 2.3rem;
+  line-height: 2.4rem;
 }
 #wrap {
-  margin-left: -15px;
-  margin-right: -15px;
   padding: 0 1em;
 }
 article {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+h1.titularra {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 8rem;
+  border-bottom: .2rem solid grey;
+  padding-bottom: .2em;
   position: relative;
   float: left;
   width: 100%;
@@ -6743,7 +6750,7 @@ article {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  article {
+  h1.titularra {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -6751,18 +6758,18 @@ article {
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  article {
+  h1.titularra {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  article {
+  h1.titularra {
     margin-left: 16.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  article {
+  h1.titularra {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -6770,34 +6777,15 @@ article {
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
-  article {
+  h1.titularra {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) and (min-width: 768px) {
-  article {
+  h1.titularra {
     margin-left: 25%;
   }
-}
-img {
-  max-width: 100%;
-}
-img.panoramikoa {
-  width: 100vw;
-}
-img.horizontala {
-  width: 100%;
-}
-img.bertikala {
-  width: 50%;
-}
-h1.titularra {
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 8rem;
-  border-bottom: .2rem solid grey;
-  padding-bottom: .2em;
 }
 h2.sarrera {
   font-size: 2rem;
@@ -6817,23 +6805,43 @@ p.sinadura {
 p.sinadura .sinadura-data {
   font-family: LatoLight;
 }
-.irudiak {
+.irudi {
   position: relative;
 }
-.irudiak p.oina {
+p.oina {
   font-size: 1.3rem;
   position: absolute;
-  right: -12em;
   width: 11em;
   bottom: 0;
   margin-bottom: 0;
   font-family: LatoLight;
   line-height: 1.5em;
 }
-.irudiak .sinadura-irudia {
+.sinadura-irudia {
   text-transform: lowercase;
   font-variant: small-caps;
   font-weight: normal;
   padding-left: .3em;
   font-size: 1.2em;
+}
+.panoramikoa img {
+  width: 100vw;
+}
+.horizontala img {
+  width: 100%;
+}
+.horizontala p.oina {
+  right: -12em;
+}
+.bertikala {
+  float: left;
+  width: 50%;
+  margin: 1% 3% 1% -10%;
+}
+.bertikala img {
+  width: 100%;
+}
+.bertikala p.oina {
+  left: -12em;
+  text-align: right;
 }

@@ -1,0 +1,11 @@
+.responsive(@mobile, @tablet, @computer) {
+  .make-xs-column(@mobile);
+  @media (min-width: @screen-sm-min){
+    .make-sm-column(@tablet);
+    .make-sm-column-offset((12-@tablet)/2);
+  }
+  @media (min-width: @screen-lg-min){
+    .make-lg-column(@computer);
+    .make-sm-column-offset((12-@computer)/2);
+  }
+}
