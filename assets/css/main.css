@@ -6753,8 +6753,8 @@ h1.titularra {
   h1.titularra {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -6772,8 +6772,8 @@ h1.titularra {
   h1.titularra {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -6804,8 +6804,8 @@ h2.sarrera {
   h2.sarrera {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -6823,8 +6823,8 @@ h2.sarrera {
   h2.sarrera {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -6856,8 +6856,8 @@ p.sinadura {
   p.sinadura {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -6875,8 +6875,8 @@ p.sinadura {
   p.sinadura {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -6905,8 +6905,8 @@ p.testua {
   p.testua {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -6924,8 +6924,8 @@ p.testua {
   p.testua {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -6974,8 +6974,8 @@ p.testua {
   .panoramikoa {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -6993,8 +6993,8 @@ p.testua {
   .panoramikoa {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -7031,8 +7031,8 @@ p.testua {
   .horizontala {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -7050,8 +7050,8 @@ p.testua {
   .horizontala {
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
@@ -7099,4 +7099,123 @@ p.testua {
     text-align: right;
     bottom: 0;
   }
+}
+img.karetoa {
+  border-radius: 100%;
+}
+.esanak {
+  margin: 2rem 0 !important;
+  font-size: 0;
+  background: #cccccc;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .esanak {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .esanak {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .esanak {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .esanak {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .esanak {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .esanak {
+    margin-left: 0%;
+  }
+}
+.esanak .esanakEdukia {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .esanak .esanakEdukia {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .esanak .esanakEdukia {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .esanak .esanakEdukia {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .esanak .esanakEdukia {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .esanak .esanakEdukia {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .esanak .esanakEdukia {
+    margin-left: 25%;
+  }
+}
+.esanak img {
+  width: 25%;
+}
+.esanak .esanakTestua {
+  display: inline-block;
+  width: 75%;
+  padding-left: 5%;
+}
+.esanakTestua p {
+  font-family: 'PTSerifRegular';
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 1.4em;
+  text-align: center;
+}
+.esanakTestua p.sinadura {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
 }
