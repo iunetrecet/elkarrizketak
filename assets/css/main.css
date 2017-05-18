@@ -6751,13 +6751,29 @@ header h2 {
 }
 header h1 {
   text-align: center;
-  width: 50%;
+  width: 100%;
 }
 header h1 img {
-  width: 30%;
+  width: 50%;
+}
+@media (min-width: 768px) {
+  header h1 {
+    width: 30%;
+  }
+  header h1 img {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  header h1 {
+    width: 50%;
+  }
+  header h1 img {
+    width: 30%;
+  }
 }
 header h2 {
-  width: 21%;
+  width: 96%;
   text-transform: uppercase;
   font-family: LatoRegular;
   color: white;
@@ -6766,9 +6782,23 @@ header h2 {
   margin: 2%;
   border-bottom: 0.5rem solid #ff0066;
   padding-bottom: .5em;
+  text-align: center;
 }
-header h2:nth-child(3) {
-  text-align: right;
+@media (min-width: 768px) {
+  header h2 {
+    width: 31%;
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  header h2 {
+    width: 21%;
+  }
+}
+@media (min-width: 768px) {
+  header h2:nth-child(3) {
+    text-align: right;
+  }
 }
 header img {
   width: 100%;
@@ -6780,7 +6810,7 @@ article {
 h1.titularra {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 8rem;
+  font-size: 6rem;
   border-bottom: 0.3rem solid #ff0066;
   padding-bottom: .2em;
   position: relative;
@@ -6826,6 +6856,11 @@ h1.titularra {
 @media (min-width: 1200px) and (min-width: 768px) {
   h1.titularra {
     margin-left: 25%;
+  }
+}
+@media (min-width: 768px) {
+  h1.titularra {
+    font-size: 8rem;
   }
 }
 h2.sarrera {
