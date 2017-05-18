@@ -6812,6 +6812,7 @@ header img {
 article {
   margin-left: -15px;
   margin-right: -15px;
+  margin: 0;
 }
 h1.titularra {
   text-transform: uppercase;
