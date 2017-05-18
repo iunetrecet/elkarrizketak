@@ -7242,7 +7242,10 @@ img.karetoa {
     margin-left: 25%;
   }
 }
-.esanak .esanakEdukia:nth-child(even) .esanakTestua {
+.esanak.bigarrena {
+  margin-top: 0 !important;
+}
+.esanak.bigarrena .esanakEdukia .esanakTestua {
   padding-right: 5%;
   padding-left: 0;
 }
