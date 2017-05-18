@@ -6787,8 +6787,8 @@ h1.titularra {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   h1.titularra {
@@ -6839,8 +6839,8 @@ h2.sarrera {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   h2.sarrera {
@@ -6891,8 +6891,8 @@ p.sinadura {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   p.sinadura {
@@ -6940,8 +6940,8 @@ p.testua {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   p.testua {
@@ -7008,8 +7008,8 @@ p.testua {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
   padding: 0 !important;
   margin: 2rem 0 !important;
 }
@@ -7067,8 +7067,8 @@ p.testua {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   .horizontala {
@@ -7154,8 +7154,8 @@ img.karetoa {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 @media (min-width: 768px) {
   .esanak {
@@ -7200,8 +7200,8 @@ img.karetoa {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
   padding: 2rem 0;
 }
 @media (min-width: 768px) {
@@ -7268,4 +7268,5 @@ img.karetoa {
 .esanakTestua p.sinadura {
   font-size: 1.6rem;
   padding-top: .5em;
+  margin-bottom: 0;
 }
