@@ -7048,6 +7048,11 @@ p.testua {
   padding: 0 !important;
   margin: 2rem 0 !important;
 }
+@media (max-width: 767px) {
+  .panoramikoa {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .panoramikoa {
     position: relative;
