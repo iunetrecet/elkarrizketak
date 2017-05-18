@@ -6725,7 +6725,7 @@ article:after {
   }
 }
 body {
-  font-family: LatoRegular;
+  font-family: LatoLight;
   font-size: 13pt;
   line-height: 2.4rem;
 }
@@ -6788,7 +6788,8 @@ h1.titularra {
   }
 }
 h2.sarrera {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  line-height: 1.5em;
   font-weight: normal;
   padding: 1em 0;
   margin: .5em 0;
