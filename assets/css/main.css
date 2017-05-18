@@ -7104,9 +7104,9 @@ img.karetoa {
   border-radius: 100%;
 }
 .esanak {
-  margin: 2rem 0 !important;
+  margin: 4rem 0 !important;
   font-size: 0;
-  background: #cccccc;
+  background: #d9d9d9;
   position: relative;
   float: left;
   width: 100%;
@@ -7199,6 +7199,10 @@ img.karetoa {
     margin-left: 25%;
   }
 }
+.esanak .esanakEdukia:nth-child(even) .esanakTestua {
+  padding-right: 5%;
+  padding-left: 0;
+}
 .esanak img {
   width: 25%;
 }
@@ -7206,6 +7210,7 @@ img.karetoa {
   display: inline-block;
   width: 75%;
   padding-left: 5%;
+  vertical-align: middle;
 }
 .esanakTestua p {
   font-family: 'PTSerifRegular';
@@ -7215,7 +7220,6 @@ img.karetoa {
   text-align: center;
 }
 .esanakTestua p.sinadura {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: normal;
+  font-size: 1.6rem;
+  padding-top: .5em;
 }

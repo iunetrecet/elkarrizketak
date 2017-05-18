@@ -1,11 +1,17 @@
 .esanak {
-  margin: 2rem 0 !important;
+  margin: 4rem 0 !important;
   font-size: 0;
-  background: lighten(#000, 80%);
+  background: lighten(#000, 85%);
   .responsive(12,12,12);
   .esanakEdukia {
     .responsive(12,8,6);
     padding: 2rem 0;
+    &:nth-child(even) {
+      .esanakTestua {
+        padding-right: 5%;
+        padding-left: 0;
+      }
+    }
   }
   img {
     width: 25%;
@@ -14,8 +20,10 @@
     display: inline-block;
     width: 75%;
     padding-left: 5%;
+    vertical-align: middle;
   }
 }
+
 .esanakTestua p {
   font-family: @serif;
   font-style: italic;
@@ -23,8 +31,7 @@
   line-height: 1.4em;
   text-align: center;
   &.sinadura {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: normal;
+    font-size: 1.6rem;
+    padding-top: .5em;
   }
 }
