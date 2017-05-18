@@ -37,15 +37,21 @@ header {
   }
   h2 {
     width: 96%;
-    text-transform: uppercase;
-    font-family: @body;
-    color: white;
-    font-weight: bold;
-    font-size: 5rem;
     margin: 2%;
     border-bottom: .5rem solid @pink;
     padding-bottom: .5em;
     text-align: center;
+    a {
+      text-transform: uppercase;
+      font-family: @body;
+      color: white;
+      font-weight: bold;
+      font-size: 5rem;
+      &:hover {
+        text-decoration: none;
+        color: white;
+      }
+    }
     @media (min-width: @screen-sm-min) {
       width: 31%;
       text-align: left;

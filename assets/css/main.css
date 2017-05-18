@@ -6774,15 +6774,21 @@ header h1 img {
 }
 header h2 {
   width: 96%;
+  margin: 2%;
+  border-bottom: 0.5rem solid #ff0066;
+  padding-bottom: .5em;
+  text-align: center;
+}
+header h2 a {
   text-transform: uppercase;
   font-family: LatoRegular;
   color: white;
   font-weight: bold;
   font-size: 5rem;
-  margin: 2%;
-  border-bottom: 0.5rem solid #ff0066;
-  padding-bottom: .5em;
-  text-align: center;
+}
+header h2 a:hover {
+  text-decoration: none;
+  color: white;
 }
 @media (min-width: 768px) {
   header h2 {
