@@ -1,0 +1,43 @@
+header {
+  position: relative;
+  background-image: url('../images/azala.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 4rem;
+  .headerTestua {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    font-size: 0;
+  }
+  h1, h2 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  h1 {
+    text-align: center;
+    width: 50%;
+    img {
+      width: 30%;
+    }
+  }
+  h2 {
+    width: 21%;
+    text-transform: uppercase;
+    font-family: @body;
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 2%;
+    border-bottom: .5rem solid @pink;
+    padding-bottom: .5em;
+    &:nth-child(3) {
+      text-align: right;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}

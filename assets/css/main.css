@@ -6729,8 +6729,49 @@ body {
   font-size: 13pt;
   line-height: 2.4rem;
 }
-#wrap {
-  padding: 0 1em;
+header {
+  position: relative;
+  background-image: url('../images/azala.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 4rem;
+}
+header .headerTestua {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  font-size: 0;
+}
+header h1,
+header h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+header h1 {
+  text-align: center;
+  width: 50%;
+}
+header h1 img {
+  width: 30%;
+}
+header h2 {
+  width: 21%;
+  text-transform: uppercase;
+  font-family: LatoRegular;
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+  margin: 2%;
+  border-bottom: 0.5rem solid #ff0066;
+  padding-bottom: .5em;
+}
+header h2:nth-child(3) {
+  text-align: right;
+}
+header img {
+  width: 100%;
 }
 article {
   margin-left: -15px;
@@ -6740,7 +6781,7 @@ h1.titularra {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 8rem;
-  border-bottom: .2rem solid grey;
+  border-bottom: 0.3rem solid #ff0066;
   padding-bottom: .2em;
   position: relative;
   float: left;
@@ -6970,6 +7011,7 @@ p.testua {
   padding-left: 15px;
   padding-right: 15px;
   padding: 0 !important;
+  margin: 2rem 0 !important;
 }
 @media (min-width: 768px) {
   .panoramikoa {
