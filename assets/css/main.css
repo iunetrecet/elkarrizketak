@@ -7285,13 +7285,25 @@ img.karetoa {
   padding-left: 0;
 }
 .esanak img {
-  width: 25%;
+  width: 40%;
+  margin: 3% 30%;
+}
+@media (min-width: 768px) {
+  .esanak img {
+    width: 25%;
+    margin: 0;
+  }
 }
 .esanak .esanakTestua {
   display: inline-block;
-  width: 75%;
+  width: 100%;
   padding-left: 5%;
   vertical-align: middle;
+}
+@media (min-width: 768px) {
+  .esanak .esanakTestua {
+    width: 75%;
+  }
 }
 .esanakTestua p {
   font-family: 'PTSerifRegular';
