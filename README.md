@@ -1,3 +1,3 @@
 # elkarrizketak
 
-A web design for the interviews section of a newspaper
+The design for the interviews section of the newspaper Berria
