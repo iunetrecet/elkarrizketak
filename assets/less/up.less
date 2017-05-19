@@ -1,0 +1,21 @@
+.up {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  @media (min-width: @screen-sm-min) {
+    right: 3%;
+    display: block;
+    .glyphicon {
+      display: inline;
+    }
+    .buttonText {
+      display: none;
+    }
+  }
+  @media (min-width: @screen-lg-min) {
+    right: 7%;
+    .buttonText {
+      display: inline;
+    }
+  }
+}

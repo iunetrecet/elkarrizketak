@@ -6730,6 +6730,7 @@ body {
   line-height: 2.4rem;
 }
 header {
+  z-index: 1;
   position: relative;
   background-image: url('../images/azala.jpg');
   background-repeat: no-repeat;
@@ -6790,6 +6791,14 @@ header h2 a:hover {
   text-decoration: none;
   color: white;
 }
+header h2 a:focus {
+  text-decoration: none;
+  color: white;
+}
+header h2 a:active {
+  text-decoration: none;
+  color: white;
+}
 @media (min-width: 768px) {
   header h2 {
     width: 31%;
@@ -6814,7 +6823,7 @@ article {
   margin-right: -15px;
   margin: 0;
 }
-h1.titularra {
+h1#titularra {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 6rem;
@@ -6828,7 +6837,7 @@ h1.titularra {
   padding-right: 7.5%;
 }
 @media (min-width: 768px) {
-  h1.titularra {
+  h1#titularra {
     position: relative;
     min-height: 1px;
     padding-left: 0;
@@ -6836,18 +6845,18 @@ h1.titularra {
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  h1.titularra {
+  h1#titularra {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  h1.titularra {
+  h1#titularra {
     margin-left: 16.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  h1.titularra {
+  h1#titularra {
     position: relative;
     min-height: 1px;
     padding-left: 0;
@@ -6855,18 +6864,18 @@ h1.titularra {
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
-  h1.titularra {
+  h1#titularra {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) and (min-width: 768px) {
-  h1.titularra {
+  h1#titularra {
     margin-left: 25%;
   }
 }
 @media (min-width: 768px) {
-  h1.titularra {
+  h1#titularra {
     font-size: 8rem;
   }
 }
@@ -7455,5 +7464,30 @@ footer {
 @media (min-width: 1200px) and (min-width: 768px) {
   footer {
     margin-left: 0%;
+  }
+}
+.up {
+  display: none;
+  position: fixed;
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .up {
+    right: 3%;
+    display: block;
+  }
+  .up .glyphicon {
+    display: inline;
+  }
+  .up .buttonText {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .up {
+    right: 7%;
+  }
+  .up .buttonText {
+    display: inline;
   }
 }
