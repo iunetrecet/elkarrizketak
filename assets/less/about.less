@@ -1,0 +1,35 @@
+section.nor {
+  .responsive(12,12,12);
+  display: table;
+  background: lighten(#000, 15%);
+  margin-top: 8rem;
+  padding: 0 4% !important;
+  .pertsonaia {
+    color: white;
+    vertical-align: middle;
+    width: 100%;
+    padding: 2% 3%;
+    @media (min-width: @screen-sm-min){
+      display: table-cell;
+      width: 50%;
+      vertical-align: top;
+      &:first-child {
+        text-align: right;
+      }
+    }
+    h1 {
+      font-weight: bold;
+      border-bottom: .5rem solid @pink;
+      padding-bottom: .5em;
+      text-transform: uppercase;
+      font-family: @body;
+      color: white;
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      color: @pink;
+      font-weight: bold;
+    }
+  }
+}

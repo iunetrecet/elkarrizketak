@@ -7023,6 +7023,86 @@ p.testua {
     margin-left: 25%;
   }
 }
+section.nor {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  display: table;
+  background: #262626;
+  margin-top: 8rem;
+  padding: 0 4% !important;
+}
+@media (min-width: 768px) {
+  section.nor {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  section.nor {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  section.nor {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  section.nor {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  section.nor {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  section.nor {
+    margin-left: 0%;
+  }
+}
+section.nor .pertsonaia {
+  color: white;
+  vertical-align: middle;
+  width: 100%;
+  padding: 2% 3%;
+}
+@media (min-width: 768px) {
+  section.nor .pertsonaia {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+  }
+  section.nor .pertsonaia:first-child {
+    text-align: right;
+  }
+}
+section.nor .pertsonaia h1 {
+  font-weight: bold;
+  border-bottom: 0.5rem solid #ff0066;
+  padding-bottom: .5em;
+  text-transform: uppercase;
+  font-family: LatoRegular;
+  color: white;
+  font-size: 5rem;
+}
+section.nor .pertsonaia h2 {
+  font-size: 2rem;
+  color: #ff0066;
+  font-weight: bold;
+}
 .irudi {
   position: relative;
 }
