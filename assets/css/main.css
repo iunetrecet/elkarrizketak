@@ -6823,7 +6823,6 @@ header h1 .glyphicon {
 header h2 {
   width: 96%;
   margin: 2%;
-  border-bottom: 0.5rem solid #ff0066;
   padding-bottom: .5em;
   text-align: center;
 }
@@ -6865,9 +6864,6 @@ header h2 a:active {
 header img {
   width: 100%;
 }
-svg path#karratua {
-  fill: #ff0066 !important;
-}
 article {
   margin-left: -15px;
   margin-right: -15px;
@@ -6877,7 +6873,6 @@ h1#titularra {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 6rem;
-  border-bottom: 0.3rem solid #ff0066;
   padding-bottom: .2em;
   position: relative;
   float: left;
