@@ -6795,9 +6795,14 @@ header h2 {
 header h1 {
   text-align: center;
   width: 100%;
+  margin-bottom: -0.5em;
 }
 header h1 img {
   width: 50%;
+}
+header h1 .glyphicon {
+  color: white;
+  width: 100%;
 }
 @media (min-width: 768px) {
   header h1 {
@@ -6859,6 +6864,9 @@ header h2 a:active {
 }
 header img {
   width: 100%;
+}
+svg path#karratua {
+  fill: #ff0066 !important;
 }
 article {
   margin-left: -15px;
