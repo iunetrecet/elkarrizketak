@@ -33,6 +33,13 @@ Lehenengo pausoa, headerrean izenak jartzea da. *index.html* fitxategian,
         </div>
       </header>
 
+Headerrarena irudia
+```````````````````
+
+Azaleko irudiak beti izen berdina izango du, *azala.jpg*. *assets/images*
+karpetaren barnean *azala.jpg* izenarekin sartuko dugu hasieran fondoan jarri
+nahi dugun irudia.
+
 
 Sinadura
 ````````
