@@ -3,50 +3,78 @@ header {
   position: relative;
   height: 100vh;
   margin-bottom: 4rem;
-  background-image: url('../images/azala.jpg');
+  background-image: url('../images/azala_mobil.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  .headerTestua {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-    font-size: 0;
-  }
-  h1, h2 {
-    display: inline-block;
-    vertical-align: middle;
+  @media (min-width: @screen-sm-min) {
+    background-image: url('../images/azala.jpg');
   }
   h1 {
-    text-align: center;
     width: 100%;
-    margin-bottom: -.5em;
-    img {
-      width: 50%;
-    }
-    .glyphicon {
-      color: white;
-      width: 100%;
-    }
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1rem;
     @media (min-width: @screen-sm-min) {
-      width: 30%;
-      img {
-        width: 80%;
-      }
-    }
-    @media (min-width: @screen-lg-min) {
-      width: 50%;
-      img {
-        width: 30%;
-      }
+      display: none;
     }
   }
-  h2 {
-    width: 96%;
-    margin: 2%;
-    padding-bottom: .5em;
-    text-align: center;
+  .headerTestua {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 1%;
+    position: absolute;
+    bottom: 0;
+    .bigHeader {
+      display: none;
+    }
+    @media (min-width: @screen-sm-min) {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      .bigHeader {
+        text-align: center;
+        .down {
+          color: white;
+          font-size: 3.5rem;
+          margin: 0 auto;
+          .glyphicon {
+            margin-bottom: .5em;
+          }
+        }
+        .ahomentan {
+          display: none;
+          width: 100%;
+          text-align: center;
+          img {
+            width: 80%;
+            display: inline;
+          }
+          @media (min-width: @screen-sm-min) {
+            display: block;
+          }
+        }
+      }
+    }
+    h2 {
+      border-bottom: .5rem solid #ff0066;
+      padding-bottom: .5em;
+      text-align: center;
+      @media (min-width: @screen-sm-min) {
+        text-align: right;
+        padding: 0 0 .5em 5%;
+      }
+      &:nth-child(1) {
+        @media (min-width: @screen-sm-min) {
+          padding: 0 5% .5em 0;
+          text-align: left;
+        }
+      }
+      &:nth-child(2) {
+      }
+    }
     a {
       text-transform: uppercase;
       font-family: @body;
@@ -66,20 +94,5 @@ header {
         color: white;
       }
     }
-    @media (min-width: @screen-sm-min) {
-      width: 31%;
-      text-align: left;
-    }
-    @media (min-width: @screen-lg-min) {
-      width: 21%;
-    }
-    &:nth-child(3) {
-      @media (min-width: @screen-sm-min) {
-        text-align: right;
-      }
-    }
-  }
-  img {
-    width: 100%;
   }
 }
