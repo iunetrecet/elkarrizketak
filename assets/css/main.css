@@ -6803,6 +6803,7 @@ header .headerTestua {
   padding: 0 1%;
   position: absolute;
   bottom: 0;
+  background: rgba(30, 30, 30, 0.7);
 }
 header .headerTestua .bigHeader {
   display: none;
@@ -6813,8 +6814,10 @@ header .headerTestua .bigHeader {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    background: none;
   }
   header .headerTestua .bigHeader {
+    display: block;
     text-align: center;
   }
   header .headerTestua .bigHeader .down {
@@ -6826,7 +6829,7 @@ header .headerTestua .bigHeader {
     margin-bottom: .5em;
   }
   header .headerTestua .bigHeader .ahomentan {
-    display: none;
+    display: block;
     width: 100%;
     text-align: center;
   }
@@ -6835,23 +6838,26 @@ header .headerTestua .bigHeader {
     display: inline;
   }
 }
-@media (min-width: 768px) and (min-width: 768px) {
-  header .headerTestua .bigHeader .ahomentan {
-    display: block;
-  }
-}
 header .headerTestua h2 {
-  border-bottom: .5rem solid #ff0066;
+  border-bottom: 0.3rem solid #ff0066;
   padding-bottom: .5em;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   header .headerTestua h2 {
     text-align: right;
     padding: 0 0 .5em 5%;
   }
 }
+@media (max-width: 991px) {
+  header .headerTestua h2:nth-child(3) {
+    border-bottom: none;
+  }
+}
 @media (min-width: 768px) {
+  header .headerTestua h2 {
+    border-bottom: 0.5rem solid #ff0066;
+  }
   header .headerTestua h2:nth-child(1) {
     padding: 0 5% .5em 0;
     text-align: left;
@@ -6862,7 +6868,12 @@ header .headerTestua a {
   font-family: LatoRegular;
   color: white;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  header .headerTestua a {
+    font-size: 5rem;
+  }
 }
 header .headerTestua a:hover {
   text-decoration: none;
@@ -6885,8 +6896,9 @@ h1#titularra {
   border-bottom: .3rem solid #ff0066;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 4rem;
   padding-bottom: .2em;
+  word-wrap: break-word;
   position: relative;
   float: left;
   width: 100%;
@@ -7141,6 +7153,7 @@ section.nor {
   }
 }
 section.nor .pertsonaia {
+  word-wrap: break-word;
   color: white;
   vertical-align: middle;
   width: 100%;

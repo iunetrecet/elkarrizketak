@@ -26,6 +26,7 @@ header {
     padding: 0 1%;
     position: absolute;
     bottom: 0;
+    background: rgba(30,30,30,.7);
     .bigHeader {
       display: none;
     }
@@ -34,7 +35,9 @@ header {
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
+      background: none;
       .bigHeader {
+        display: block;
         text-align: center;
         .down {
           color: white;
@@ -45,34 +48,35 @@ header {
           }
         }
         .ahomentan {
-          display: none;
+          display: block;
           width: 100%;
           text-align: center;
           img {
             width: 80%;
             display: inline;
           }
-          @media (min-width: @screen-sm-min) {
-            display: block;
-          }
         }
       }
     }
     h2 {
-      border-bottom: .5rem solid #ff0066;
+      border-bottom: .3rem solid @pink;
       padding-bottom: .5em;
       text-align: center;
-      @media (min-width: @screen-sm-min) {
+      @media (min-width: @screen-xs-min) {
         text-align: right;
         padding: 0 0 .5em 5%;
       }
-      &:nth-child(1) {
-        @media (min-width: @screen-sm-min) {
+      &:nth-child(3) {
+        @media (max-width: @screen-sm-max) {
+          border-bottom: none;
+        }
+      }
+      @media (min-width: @screen-sm-min) {
+        border-bottom: .5rem solid @pink;
+        &:nth-child(1) {
           padding: 0 5% .5em 0;
           text-align: left;
         }
-      }
-      &:nth-child(2) {
       }
     }
     a {
@@ -80,7 +84,10 @@ header {
       font-family: @body;
       color: white;
       font-weight: bold;
-      font-size: 5rem;
+      font-size: 3rem;
+      @media (min-width: @screen-sm-min) {
+        font-size: 5rem;
+      }
       &:hover {
         text-decoration: none;
         color: white;
