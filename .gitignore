@@ -1,3 +1,4 @@
 *.swp
 assets/images/*.jpg
 assets/images/*.png
+!assets/images/berria-logo.png
