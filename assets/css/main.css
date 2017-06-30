@@ -7270,6 +7270,7 @@ section.nor .pertsonaia h2 {
   }
 }
 .horizontala {
+  margin: 0 1em;
   position: relative;
   float: left;
   width: 100%;
