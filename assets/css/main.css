@@ -7102,6 +7102,11 @@ p.testua {
     margin-left: 25%;
   }
 }
+.bigarrenTitu {
+  color: #ff0066;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 section.nor {
   position: relative;
   float: left;
