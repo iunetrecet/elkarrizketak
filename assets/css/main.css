@@ -6770,6 +6770,11 @@ body {
   font-size: 15pt;
   line-height: 1.5em;
 }
+b,
+strong {
+  font-family: 'LatoRegular';
+  font-weight: normal;
+}
 header {
   z-index: 1;
   position: relative;
