@@ -7599,6 +7599,12 @@ footer {
     margin-left: 0%;
   }
 }
+footer .kredituak {
+  padding: 0;
+  margin-top: 2em;
+  font-size: .8em;
+  list-style: none;
+}
 .up {
   display: none;
   position: fixed;
