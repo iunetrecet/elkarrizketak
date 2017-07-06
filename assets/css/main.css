@@ -7607,7 +7607,7 @@ footer .kredituak {
 }
 footer .kredituak li {
   display: inline-block;
-  border-right: .1em solid grey;
+  border-left: .1em solid grey;
   padding: 0 1em;
 }
 footer .kredituak li:first-child {
