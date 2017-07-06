@@ -7,5 +7,13 @@ footer {
     margin-top: 2em;
     font-size: .8em;
     list-style: none;
+    li {
+      display: inline-block;
+      border-right: .1em solid grey;
+      padding: 0 1em;
+      &:first-child {
+        border-left: none;
+      }
+    }
   }
 }

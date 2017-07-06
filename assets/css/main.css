@@ -7605,6 +7605,14 @@ footer .kredituak {
   font-size: .8em;
   list-style: none;
 }
+footer .kredituak li {
+  display: inline-block;
+  border-right: .1em solid grey;
+  padding: 0 1em;
+}
+footer .kredituak li:first-child {
+  border-left: none;
+}
 .up {
   display: none;
   position: fixed;
