@@ -6769,6 +6769,7 @@ body {
   font-family: LatoLight;
   font-size: 15pt;
   line-height: 1.5em;
+  max-width: 2000px;
 }
 b,
 strong {
