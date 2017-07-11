@@ -6780,15 +6780,19 @@ header {
   position: relative;
   height: 100vh;
   margin-bottom: 4rem;
-  background-image: url('../images/azala_mobil.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  background-size: 100vw 120%;
+}
+header img.azala {
+  height: 100vh;
+  min-width: 100vw;
 }
 @media (min-width: 768px) {
   header {
     background-image: url('../images/azala.jpg');
+    background-size: cover;
   }
 }
 header h1 {
