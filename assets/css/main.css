@@ -6778,7 +6778,6 @@ strong {
 header {
   z-index: 1;
   position: relative;
-  height: 100vh;
   margin-bottom: 4rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -6786,13 +6785,13 @@ header {
   background-size: 100vw 120%;
 }
 header img.azala {
-  height: 100vh;
-  min-width: 100vw;
+  width: 100%;
 }
 @media (min-width: 768px) {
   header {
     background-image: url('../images/azala.jpg');
     background-size: cover;
+    height: 100vh;
   }
 }
 header h1 {
@@ -6800,6 +6799,9 @@ header h1 {
   text-align: center;
   margin-top: 0;
   padding-top: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 @media (min-width: 768px) {
   header h1 {
